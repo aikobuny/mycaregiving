@@ -1,0 +1,284 @@
+:root {
+    --delay: .2s;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: caption;
+    
+}
+
+@font-face {
+    font-family: MomcakeBold;
+    src: url(MomcakeBold.otf);
+}
+@font-face {
+    font-family: MouldyCheese;
+    src: url(MouldyCheese.ttf);
+}
+@font-face {
+    font-family: VintageWaves;
+    src: url(VintageWaves.otf);
+}
+
+section {
+    width: 100%;
+    flex-direction: column;
+}
+svg {
+    position: relative;
+    width: 100% !important;
+    display: flex !important;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.8vw;
+}
+
+.mycaregiving {
+    color:#E363AA;
+    font-weight: bold;
+    font-size: 1.25vw;
+}
+.mycaregiving2 {
+    color:#E363AA;
+    font-weight: bold;
+    font-size: 1.8vw;
+}
+
+.title {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2vw;
+}
+
+.fit-img {
+    background: no-repeat center;
+    background-size: cover;
+}
+
+button {
+    transition: var(--delay);
+}
+
+button:hover {
+    transition: var(--delay);
+}
+
+.topButton {
+    background-color: #E363AA;
+    color: white;
+    display: block;
+    border-radius: 2vw;
+    padding: 1vw;
+    font: caption;
+    font-weight: bold;
+    font-size: 1.5vw;
+    float: right;
+    margin-left: 0.8vw;
+    position: relative;
+    bottom: 1vw;
+    right: 1vw;
+    transition: var(--delay);
+}
+
+.dropbtn {
+    background-color: #E363AA;
+    color: white;
+    display: block;
+    border-radius: 2vw;
+    padding: 1vw;
+    font: caption;
+    font-weight: bold;
+    font-size: 1.8vw;
+    float: right;
+    margin-left: 0.8vw;
+    position: relative;
+    bottom: 1vw;
+    right: 1vw;
+    transition: var(--delay);
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ea78ff;
+    width: 30vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 3vw;
+    height: 20vw;
+    left: -.21vw;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1vw;
+}
+
+.dropdown-content a:hover {background-color: #fff;}
+.dropdown-content:hover {display: block;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ea78ff; }
+
+.patootie:hover {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    transition: var(--delay);
+}
+
+.dropdown:hover .patootie {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    transition: var(--delay);
+}
+
+.dropdown-content .dropdown-sub:hover .patootie {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    transition: var(--delay);
+}
+
+.dropdown-content:hover .patootie {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    transition: var(--delay);
+}
+
+.grid {
+    display: inline-block;
+    width: 20vw;
+    padding: 2vw;
+}
+
+.grid svg {
+    height: 5vw;
+    padding-bottom: 1vw;
+}
+
+.gridTitle {
+    font-weight: bold;
+    font-size: 1.5vw;
+    display: block;
+    position: relative;
+}
+
+.gridDesc {
+    font-size: 1.2vw;
+}
+
+.minigrid {
+    width: 24vw;
+    display: inline-block;
+    padding: 1.5vw;
+    box-shadow: 0px 0px 20px -10px;
+    margin: 1vw;
+    height: 10vw;
+    position: relative;
+}
+
+.minigrid svg {
+    height: 5vw;
+}
+
+.minigrid a {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    width: 20vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactForm {
+    display: block;
+    position: relative;
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactForm input {
+    font-size: 2vw;
+    padding: 1vw;
+    border: solid .1vw black;
+    width: 50%;
+    border-radius: 1vw;
+    margin-bottom: 3vw;
+}
+
+.contactForm a {
+    display: block;
+    position: relative;
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* our team */
+div .profile-holder {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40vw;
+}
+.profile-holder div {
+    display: inline-block;
+    position: relative;
+}
+.profile-holder a {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1vw;
+    margin-left: 12vw;
+    position: relative;
+    font-size: 1.2vw;
+}
+
+.module-holder {
+    display: block;
+    position: relative;
+    width: 95vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5vw;
+}
+
+.module-holder .bold {
+    font-weight: bold;
+    margin-bottom: 1vw;
+    font-size: 1.7vw;
+}
+
+.module-holder img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.carebold {
+    font-size: 3vw;
+    font-weight: bold;
+}
