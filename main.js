@@ -75,10 +75,10 @@ function sendMessage(url)
 
     let output = 
 `
-Name: ${name}
-Email: ${email}
-Phone: ${phone}
-Message:
+**Name:** \`${name}\`
+**Email:** \`${email}\`
+**Phone:** \`${phone}\`
+**Message:**
 \`\`\`${message}\`\`\`
 `
 
