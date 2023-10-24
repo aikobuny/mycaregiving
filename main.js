@@ -69,7 +69,7 @@ function getURLParam(sParam)
 function sendMessage(url)
 {
     let name = getURLParam('name');
-    let email = getURLParam('email');
+    let email = getURLParam('email').replace('%40', '@');
     let phone = getURLParam('phone');
     let message = getURLParam('message');
 
