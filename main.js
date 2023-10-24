@@ -64,7 +64,7 @@ function getURLParam(sParam)
             return sParameterName[1];
         }
     }
-}​
+}
 
 function sendMessage(url)
 {
