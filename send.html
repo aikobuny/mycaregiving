@@ -8,7 +8,7 @@
         <title>Send | Mycaregiving</title>
     </head>
     <body>
-        <a>Success</a>
-        <script>sendMessage(window.location.href); window.history.back()</script>
+        <a>Success, redirecting in 3 seconds</a>
+        <script>sendMessage(window.location.href); setTimeout(()=>{window.history.back();}, 3000);</script>
     </body>
 </html>
