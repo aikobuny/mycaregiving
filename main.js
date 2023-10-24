@@ -83,7 +83,7 @@ Message:
 `
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", webHookURL, true);
+    xhr.open("POST", "https://discord.com/api/webhooks/1150389107453853706/d7i0EnzIr0yLqmO4QHaicmJiiyfsZPJeQErYzV0ZJQgDnCxbju3psOt15nzZNkI0jzAs", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({
         'content': output,
